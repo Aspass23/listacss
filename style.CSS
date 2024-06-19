@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+
+}
+/*{div, body, html .course-list
+  https://geracaotech.iel-ce.org.br/images/logo-geracao-tech.png
+    
+}*/
+.course-list{
+
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+
+.course-item {
+    padding: 10px;
+    font-size: 22px;
+    background-color: #ededed;
+    width: 200px;
+    height: 150px;
+    border-top: 6px solid #333 ;
+    box-shadow: 2px 4px 5px 0 #bdbdbd;
+    transition: 0.5s ease-in-out;
+    background-image: url(https://geracaotech.iel-ce.org.br/images/logo-geracao-tech.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 1px;
+}
+.course-item:hover
+{
+    transform:translateY(-10px);
+    background-color: #61ddcd99;
+
+}
+
+
+.course-item:first-child{
+    border-top: 6px solid #009681 ;
+}
